@@ -1,0 +1,23 @@
+<MyLayout>
+
+    BoxLayout:
+        orientation: "vertical"
+        size: root.width, root.height
+
+        padding: 20
+        spacing: 20
+
+        Image:
+            size_hint_y: None
+            source: 'warning.png'
+            pos_hint: {'center_x':0.5, 'center_y':0.5}
+            width: 600
+            height: 370
+            allow_stretch: True
+
+        Label:
+            text: "UNSAFE"
+            font_size: 150
+            bold:True
+            size_hint_y: None
+            pos_hint: {'center_x':0.5, 'center_y':0.49}
