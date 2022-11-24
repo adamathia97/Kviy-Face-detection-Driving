@@ -12,3 +12,5 @@ ID-300167313
 
 Name- Amritpal Nijjar
 ID-300127392
+
+We used openCV and haarcascaade algporithim to detect and read if the eyes are closed
